@@ -380,18 +380,18 @@ async def on_message(message): # Chat commands
         
         print("Waiting for process")
         size = os.stat('tiktok.mp4').st_size
-        if(size > 8194303):
+        if(size > 5194303):
 
             toolarge = await message.channel.send("The video is too long. Here's a 10 second preview")
             process = subprocess.Popen(fr'ffmpeg -i tiktok.mp4 -t 10 preview.mp4')
             process.wait()
-            if os.stat('preview.mp4').st_size > 194303:
+            if os.stat('preview.mp4').st_size > 5194303:
                 
                 compression = await message.channel.send("still too large, compressing")
                 process = subprocess.Popen(fr'ffmpeg -i preview.mp4 -vcodec libx265 -crf 28 -preset veryfast compressed.mp4')
                 process.wait()
                 fin = await message.channel.send("Finished. Here's the video")
-                sent = await message.channel.send(file=discord.File('compressed.webm'))
+                sent = await message.channel.send(file=discord.File('compressed.mp4'))
                 os.remove('compressed.mp4')
                 os.remove('tiktok.mp4')
                 os.remove('preview.mp4')
@@ -411,12 +411,12 @@ async def on_message(message): # Chat commands
                 os.remove('tiktok.mp4')
                 await progress.delete()
                 await toolarge.delete()
-                await fin.delete()
+                await sent_initial.delete()
                 #await sent.delete()
 
         else:
 
-            await sent.delete()
+            await sent_initial.delete()
             await progress.delete()
             await message.channel.send("Here is your tiktok @{0}".format(message.author))
             sent = await message.channel.send(file=discord.File('tiktok.mp4'))
