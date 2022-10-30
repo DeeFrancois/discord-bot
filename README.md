@@ -51,3 +51,5 @@ The bot also is capable of uploading linked TikTok/Reddit videos so that they ca
 - Autodetect TikTok and Reddit links and reupload upload a compressed version
 - Image Processing (To combine images for Left v Right game)
 - Automated moderation commands (cleaning up chat)
+
+Licensed under the [MIT License](LICENSE).
