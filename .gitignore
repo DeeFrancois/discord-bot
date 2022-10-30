@@ -1,0 +1,7 @@
+/ignoreThis
+youtube-dl.exe
+msedgedriver.exe
+chromedriver.exe
+.env
+README.txt
+picDownloader.py
