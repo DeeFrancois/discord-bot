@@ -37,7 +37,7 @@ requirements.txt file included so you can use pip to install the rest
 
     pip3 install -r requirements.txt
     
-## Tiktok / Reddit downloading/compression
+## TikTok / Reddit video detection, downloading, and compression
 The bot also is capable of uploading linked TikTok/Reddit videos so that they can be watched within Discord itself. If the file size is too big, it will compress or trim the file using ffmpeg
 
 ##### Best Case
