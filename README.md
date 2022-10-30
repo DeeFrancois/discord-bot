@@ -24,25 +24,30 @@ The "Left vs Right" game is a server activity that relies on the bot automatical
 ![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/ig_demosmall.gif)
 
 ## External Dependencies:
-- Selenium
-- youtube-dl
-- ffmpeg 
-- Discord
-
+- Selenium https://selenium-python.readthedocs.io/
+- youtube-dlp https://github.com/yt-dlp/yt-dlp
+- ffmpeg https://ffmpeg.org/download.html
 
 ## Main Python Libraries:
-- Discord API
+- Discord API 
 - requests
 - Pillow
 
+requirements.txt file included so you can use pip to install the rest
+
+    pip3 install -r requirements.txt
+    
+## Tiktok / Reddit downloading/compression
+The bot also is capable of uploading linked TikTok/Reddit videos so that they can be watched within Discord itself. If the file size is too big, it will compress or trim the file using ffmpeg
+
+##### Best Case
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/tiktok_demo1.gif)
+##### Compression
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/tiktok_demo2.gif)
+
 ## Features:
 - Custom TTS powered by Microsoft Azure
-(demo video of discord and folder with subtitles, provide a side by side of azure's options for languages/voices with the retrieval command )
-- Webscraping for Reddit/Bing/Google
-(demo video of selenium)
+- Webscraping for Reddit/Bing/Google/Instagram
 - Autodetect TikTok and Reddit links and reupload upload a compressed version
-(demo video of bot messages (can do a pretend version manually))
-- Image Processing;  
-(photo example with movie posters)
+- Image Processing (To combine images for Left v Right game)
 - Automated moderation commands (cleaning up chat)
-
