@@ -45,7 +45,7 @@ The bot also is capable of uploading linked TikTok/Reddit videos so that they ca
 ## Features:
 - Custom TTS powered by Microsoft Azure
 - Webscraping for Reddit/Bing/Google/Instagram
-- Autodetect TikTok and Reddit links and reupload upload a compressed version
+- Autodetect TikTok and Reddit links and reupload them
 - Image Processing (To combine images for Left v Right game)
 - Automated moderation commands (cleaning up chat)
 
