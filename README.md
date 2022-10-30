@@ -3,8 +3,8 @@ A Discord Bot that connects to the Microsoft Azure Speech Cloud Service to provi
 It also uses Selenium to webscrape Google, Bing, Reddit, and Instagram with the goal of providing the users with a "Left vs Right" game.
 
 ## Text to Speech
-The Microsoft Speech Cloud Service provides a very natural sounding tts and a large selection of languages. This bot automates the process of retrieving
-an mp3 file from the service based on your desired text and playing it through your mic in a voice channel.
+The [Microsoft Speech Cloud Service](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech) provides a very natural sounding tts and a large selection of languages. This bot automates the process of retrieving
+an mp3 file from the service based on your desired text and playing it through your mic in a voice channel. 
 
 ![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/tts_demo.gif)
 
@@ -15,7 +15,7 @@ The "Left vs Right" game is a server activity that relies on the bot automatical
 ```
 "Which doctor is better?"
 "Tenth for sure"
-"No it's for sure Matt Smith, what are you smoking"
+"No it's def Matt Smith, what are you smoking"
 "START THE VOTE"
 `lrbing Eleventh+Doctor Tenth+Doctor 
 ```
