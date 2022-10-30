@@ -11,7 +11,7 @@ an mp3 file from the service based on your desired text and playing it through y
 
 ## Left versus Right
 The "Left vs Right" game is a server activity that relies on the bot automatically searching for, downloading, and combining two images which are then voted on by the members. The bot can accomplish this by scraping from Bing, Reddit, or Instagram.
-#### Scraping from Bing
+
 ```
 "Which doctor is better?"
 "Tenth for sure"
@@ -19,11 +19,9 @@ The "Left vs Right" game is a server activity that relies on the bot automatical
 "START THE VOTE"
 `lrbing Eleventh+Doctor Tenth+Doctor 
 ```
-
-![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/bing_demo.gif)
-
-#### Scraping from Instagram
-![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/ig_demo.gif)
+#### Scraping from Bing and Instagram
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/bing_demosmall.gif)
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/ig_demosmall.gif)
 
 ## External Dependencies:
 - Selenium
