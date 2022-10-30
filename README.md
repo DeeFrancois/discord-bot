@@ -1,4 +1,6 @@
 # Discord Bot
+<sup>Disclaimer: This is an old project that no longer works due to changes to the discord API. This repo is here purely for showcasing purposes. </sup>
+
 A Discord Bot that connects to the Microsoft Azure Speech Cloud Service to provide a server with a better text-to-speech option.
 It also uses Selenium to webscrape Google, Bing, Reddit, and Instagram with the goal of providing the users with a "Left vs Right" game.
 
