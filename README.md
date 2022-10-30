@@ -6,23 +6,36 @@ It also uses Selenium to webscrape Google, Bing, Reddit, and Instagram with the 
 The Microsoft Speech Cloud Service provides a very natural sounding tts and a large selection of languages. This bot automates the process of retrieving
 an mp3 file from the service based on your desired text and playing it through your mic in a voice channel.
 
-demo image here
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/tts_demo.gif)
 
 
 ## Left versus Right
-demo here
-## Motivation
-**This code is now outdated due to changes in the discord API, so this is purely for showcasing purposes.**
-This bot was primarily meant for providing a server with a custom text-to-speech (utilizes Microsoft Azure's Speech Cloud Service) and automating certain tasks like searching for and scraping images from Google/Bing/Reddit/TikTok.
+The "Left vs Right" game is a server activity that relies on the bot automatically searching for, downloading, and combining two images which are then voted on by the members. The bot can accomplish this by scraping from Bing, Reddit, or Instagram.
+#### Scraping from Bing
+```
+"Which doctor is better?"
+"Tenth for sure"
+"No it's for sure Matt Smith, what are you smoking"
+"START THE VOTE"
+`lrbing Eleventh+Doctor Tenth+Doctor 
+```
 
-## Dependencies:
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/bing_demo.gif)
+
+#### Scraping from Instagram
+![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/ig_demo.gif)
+
+## External Dependencies:
 - Selenium
 - youtube-dl
+- ffmpeg 
+- Discord
 
-## Notable Libraries:
-discord
-requests
-pillow
+
+## Main Python Libraries:
+- Discord API
+- requests
+- Pillow
 
 ## Features:
 - Custom TTS powered by Microsoft Azure
