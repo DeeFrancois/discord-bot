@@ -5,3 +5,4 @@ chromedriver.exe
 .env
 README.txt
 picDownloader.py
+discordbot.py
