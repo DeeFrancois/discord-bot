@@ -23,6 +23,8 @@ The "Left vs Right" game is a server activity that relies on the bot automatical
 ![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/bing_demosmall.gif)
 ![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/ig_demosmall.gif)
 
+<sup>(Yes I do know that I could've just scraped the images from the instagram urls rather than using that saveinsta website. I was just bored and liked watching selenium do stuff)</sup>
+
 ## External Dependencies:
 - Selenium https://selenium-python.readthedocs.io/
 - youtube-dlp https://github.com/yt-dlp/yt-dlp
