@@ -1,12 +1,11 @@
 # Discord Bot
 <sup>Disclaimer: This is an old project that no longer works due to changes to the discord API. This repo is here purely for showcasing purposes. </sup>
 
-A Discord Bot that connects to the Microsoft Azure Speech Cloud Service to provide a server with a better text-to-speech option.
-It also uses Selenium to webscrape Google, Bing, Reddit, and Instagram with the goal of providing the users with a "Left vs Right" game.
+A Discord Bot that connects to the Microsoft Azure Speech Cloud Service to provide a server with a better Text-to-Speech option.
+It also uses Selenium to webscrape Google, Bing, Reddit, and Instagram, with the goal of providing the users with a "Left vs Right" game.
 
 ## Text to Speech
-The [Microsoft Speech Cloud Service](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech) provides a very natural sounding tts and a large selection of languages. This bot automates the process of retrieving
-an mp3 file from the service based on your desired text and playing it through your mic in a voice channel. 
+The [Microsoft Speech Cloud Service](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/text-to-speech) provides a very natural sounding tts with a large selection of languages. This bot automates the process of retrieving an mp3 file from the service based on your desired text and playing it through a virtual mic in a voice channel. 
 
 ![demo](https://github.com/DeeFrancois/discord-bot/blob/main/DocumentationImages/tts_demo.gif)
 
